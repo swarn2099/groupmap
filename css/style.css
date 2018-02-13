@@ -1,0 +1,34 @@
+#map {
+  position: absolute;
+  top: 0;
+  bottom: 0;
+  left: 0;
+  right: 0;
+}
+
+.theme {
+  color: #FD5656;
+}
+
+.search {
+  padding: 6px 15px 6px 30px;
+  margin: 10px;
+  margin-left: 50px;
+}
+
+.rounded {
+  border-radius: 25px;
+  -moz-border-radius: 25px;
+  -webkit-border-radius: 25px;
+}
+
+::placeholder {
+  color: #FD5656;
+  opacity: 1;
+  /* Firefox */
+}
+
+.lighter input[type=text] {
+  border: 0.5px solid #FD5656;
+  background-color: #fcfcfc;
+}
